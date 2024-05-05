@@ -1,0 +1,16 @@
+﻿<Window x:Class="CiCProgramWPF_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CiCProgramWPF_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="InputTextBox" Width="100" Margin="0 0 0 10" HorizontalAlignment="Center"/>
+            <Button Content="Отобразить графически" Click="ShowGraphicButton_Click"/>
+            <StackPanel x:Name="OutputStackPanel" Margin="0 20 0 0" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
